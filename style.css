@@ -474,5 +474,13 @@ button {
 #margin{
      margin-top: 103px;
 }
+[id^="spades"],
+[id^="diamond"],
+[id^="clubs"],
+[id^="heart"]
+ {
+    border: 0.1px solid black;
+}
 
 }
+
