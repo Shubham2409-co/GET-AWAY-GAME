@@ -1,0 +1,470 @@
+#background{
+    background-image: url("background.png");
+}
+#head{
+    text-align: center;
+    color:goldenrod;
+     
+}
+#header{
+     display: flex;
+     justify-content: center;
+}
+#main{
+   padding: 60px;
+   position: relative;  
+}
+
+
+button{
+    width: 130px;
+    height: 150px;
+    
+    border-radius: 10px;
+       font-size: 0;
+}
+
+
+.played{
+    transform: scale(0.6);
+}
+
+#player1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.icon{
+    background-image: url("icon.png");
+    height: 70px;
+    width:70px ;
+    background-size: contain;
+    
+}
+.text{
+     color: white;
+     font-size: 20px;
+     text-align: center;
+}
+
+#player23{
+    color: white;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 150px;
+    margin-top: 160px;
+    
+}
+
+#table {
+    position: absolute;
+    top: 58%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height:140px;
+    display: flex;
+    justify-content: center;
+    
+}
+#table2{
+    position: absolute;
+    top: 40%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+     width: 100px;
+    height:140px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#table3 {
+    position: absolute;
+    top: 40%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+     width: 100px;
+    height:140px;
+    display: flex;
+    justify-content: center;
+}
+#table1{
+    position: absolute;
+    top: 28%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+     width: 100px;
+    height:140px;
+    display: flex;
+    justify-content: center;
+
+}
+.align{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#user {
+    display: flex;      
+    
+    justify-content: center;       
+}
+
+#user button {
+    position: relative;
+    margin-left: -80px;         
+    transition: transform 0.2s;
+}
+
+
+#user button:hover {
+    transform: translateY(-20px);
+    z-index: 1;
+}
+
+#container1,#container2,#container3{
+    display: none;
+}
+#spades{
+    background-image: url("spades/ace.png");
+    
+}
+#spades2{
+    background-image: url("spades/2.png");
+    
+}
+#spades3{
+    background-image: url("spades/3.png");
+    
+}
+#spades4{
+    background-image: url("spades/4.png");
+    
+}
+#spades5{
+    background-image: url("spades/5.png");
+    
+}
+#spades6{
+    background-image: url("spades/6.png");
+    
+}
+#spades7{
+    background-image: url("spades/7.png");
+    
+}
+#spades8{
+    background-image: url("spades/8.png");
+   
+}
+#spades9{
+    background-image: url("spades/9.png");
+    
+}
+#spades10{
+    background-image: url("spades/10.png");
+    
+}
+#spadesj{
+    background-image: url("spades/J.png");
+    
+}
+#spadesq{
+    background-image: url("spades/Q.png");
+   
+}
+#spadesk{
+    background-image: url("spades/K.png");
+    
+}
+
+#clubs{
+     background-image: url("clubs/ace.png");
+
+}
+#clubs2{
+     background-image: url("clubs/2.png");
+
+}
+#clubs3{
+     background-image: url("clubs/3.png");
+
+}
+#clubs4{
+     background-image: url("clubs/4.png");
+
+}
+#clubs5{
+     background-image: url("clubs/5.png");
+
+}
+#clubs6{
+     background-image: url("clubs/6.png");
+
+}
+#clubs7{
+     background-image: url("clubs/7.png");
+
+}
+#clubs8{
+     background-image: url("clubs/8.png");
+
+}
+#clubs9{
+     background-image: url("clubs/9.png");
+
+}
+#clubs10{
+     background-image: url("clubs/10.png");
+
+}
+#clubsj{
+     background-image: url("clubs/J.png");
+
+}
+#clubsq{
+     background-image: url("clubs/Q.png");
+
+}
+#clubsk{
+     background-image: url("clubs/K.png");
+
+}
+
+#diamond{
+     background-image: url("diamonds/ace.png");
+
+}
+#diamond2{
+     background-image: url("diamonds/2.png");
+
+}
+#diamond3{
+     background-image: url("diamonds/3.png");
+
+}
+#diamond4{
+     background-image: url("diamonds/4.png");
+
+}
+#diamond5{
+     background-image: url("diamonds/5.png");
+
+}
+#diamond6{
+     background-image: url("diamonds/6.png");
+
+}
+#diamond7{
+     background-image: url("diamonds/7.png");
+
+}
+#diamond8{
+     background-image: url("diamonds/8.png");
+
+}
+#diamond9{
+     background-image: url("diamonds/9.png");
+
+}
+#diamond10{
+     background-image: url("diamonds/10.png");
+
+}
+#diamondj{
+     background-image: url("diamonds/J.png");
+
+}
+#diamondq{
+     background-image: url("diamonds/Q.png");
+
+}
+#diamondk{
+     background-image: url("diamonds/K.png");
+
+}
+
+#heart{
+     background-image: url("heart/ace.png");
+
+}
+#heart2{
+     background-image: url("heart/2.png");
+
+}
+#heart3{
+     background-image: url("heart/3.png");
+
+}
+#heart4{
+     background-image: url("heart/4.png");
+
+}
+#heart5{
+     background-image: url("heart/5.png");
+
+}
+#heart6{
+     background-image: url("heart/6.png");
+
+}
+#heart7{
+     background-image: url("heart/7.png");
+
+}
+#heart8{
+     background-image: url("heart/8.png");
+
+}
+#heart9{
+     background-image: url("heart/9.png");
+
+}
+#heart10{
+     background-image: url("heart/10.png");
+
+}
+#heartj{
+     background-image: url("heart/J.png");
+
+}
+#heartq{
+     background-image: url("heart/Q.png");
+
+}
+#heartk{
+     background-image: url("heart/K.png");
+
+}
+
+[id^="spades"],
+[id^="diamond"],
+[id^="clubs"],
+[id^="heart"]
+ {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+@media(max-width:900px)
+{
+    #main{
+   padding: 10px;
+    
+}
+
+button {
+        width: 60px ;
+        height: 80px ;
+        border-radius: 10px;
+        font-size: 0;
+    }
+
+.text{
+     color: white;
+     font-size: 12px;
+}
+.icon{
+    background-image: url("icon.png");
+    height: 50px;
+    width:50px ;
+    background-size: contain;
+    
+}
+#table{
+       width: 60px;
+    height:80px;
+    
+}
+#table1{
+       width: 60px;
+    height:80px;
+    
+}
+#table2{
+       width: 60px;
+    height:80px;
+    top: 49%;
+    left: 31%;
+    
+}
+#table3{
+       width: 60px;
+    height:80px;
+    top: 48%;
+    left: 67%;
+    
+}
+
+#player23{
+    color: white;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 65px;
+    margin-top: 110px;
+    
+}
+#user{
+     margin-left: 75px;
+}
+
+}
+
+@media(max-width:470px)
+{
+ 
+
+button {
+        width: 55px ;
+        height: 70px ;
+        border-radius: 10px;
+        font-size: 0;
+    }
+
+#table{
+       width: 60px;
+    height:70px;
+     top: 73%;
+    left: 48%;
+    
+}
+#table1{
+       width: 60px;
+    height:70px;
+    
+}
+#table2{
+       width: 60px;
+    height:70px;
+    top: 57%;
+    left: 31%;
+    
+}
+#table3{
+       width: 60px;
+    height:70px;
+    top: 57%;
+    left: 67%;
+    
+}
+
+#player23{
+    color: white;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 90px;
+    margin-top: 164px;
+    
+}
+.icon{
+    background-image: url("icon.png");
+    height: 30px;
+    width:30px ;
+    background-size: contain;
+    
+}
+
+}
