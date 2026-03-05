@@ -22,6 +22,7 @@ button{
     
     border-radius: 10px;
        font-size: 0;
+       background-color: black;
 }
 
 
@@ -361,6 +362,7 @@ button {
         height: 80px ;
         border-radius: 10px;
         font-size: 0;
+        background-color: black;
     }
 
 .text{
@@ -422,31 +424,34 @@ button {
         height: 70px ;
         border-radius: 10px;
         font-size: 0;
+        background-color: black;
     }
 
 #table{
        width: 60px;
     height:70px;
-     top: 73%;
+     top: 67%;
     left: 48%;
     
 }
 #table1{
        width: 60px;
     height:70px;
+    top: 24%;
+    left: 49%;
     
 }
 #table2{
        width: 60px;
     height:70px;
-    top: 57%;
+    top: 47%;
     left: 31%;
     
 }
 #table3{
        width: 60px;
     height:70px;
-    top: 57%;
+    top: 47%;
     left: 67%;
     
 }
@@ -455,8 +460,8 @@ button {
     color: white;
     display:flex;
     justify-content:space-between;
-    margin-bottom: 90px;
-    margin-top: 164px;
+    margin-bottom: 38px;
+    
     
 }
 .icon{
@@ -465,6 +470,9 @@ button {
     width:30px ;
     background-size: contain;
     
+}
+#margin{
+     margin-top: 103px;
 }
 
 }
